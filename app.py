@@ -8,7 +8,7 @@ import logging
 app = Flask(__name__)
 app.secret_key = os.urandom(24)  # For secure session cookies
 
-# Configure logging and monitring
+# Configure
 logging.basicConfig(level=logging.INFO)
 
 # Limit file size (max 10 MB)
